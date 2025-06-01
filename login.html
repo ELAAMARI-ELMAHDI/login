@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css.cod/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+
+    <div class="wrapper">
+        <form action="#">
+          <h2>Login</h2>
+          <div style="display: flex;flex-direction: row;">
+          
+          <img class="logoor" src="../images/LOGO.jpeg" alt="">
+          <h4 style="color: rgb(237, 10, 10);width: 60%;margin: auto;">Welcome to my website!</h4></div>
+          
+            <div class="input-field">
+            <input type="email" required>
+            <label>Enter your email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required>
+            <label>Enter your password</label>
+          </div>
+          <div class="forget">
+            <label for="remember">
+              <input type="checkbox" id="remember">
+              <p>Remember me</p>
+            </label>
+            <a href="#">Forgot password?</a>
+          </div>
+         
+          <button onclick="login()  " type="submit" >Log In</button>
+          <div class="register">
+            <p style="color: white;">Don't have an account? <a href="#">Sign up</a></p>
+          </div>
+
+          <button onclick="login()" type="submit" class="button google register" style="background-color: black;border-radius: 30px;height: 50px;">
+            <i class="fab fa-google icon" style="margin-right: 10px;font-size: 17px;"><a style="text-decoration: none;font-weight: bolder;" href="index2.html">Sin in with Google!</a></i>
+          </button>
+        </form>
+      </div>
+
+      <script>
+        function login(){
+            window.open("index2.html")
+        }
+      </script>
+
+
+
+    
+</body>
+</html>
